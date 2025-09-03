@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi"
+                  name="Kotlin Code Insight Documentation"
+                  start-page="Inspections.md">
+
+    <toc-element topic="Inspections.md">
+        <toc-element topic="KotlinApplicableInspectionBase-Simple.md"/>
+        <toc-element topic="KotlinApplicableInspectionBase.md"/>
+        <toc-element topic="AbstractKotlinInspection.md"/>
+        <toc-element topic="LocalInspectionTool.md">
+        </toc-element>
+    </toc-element>
+    <toc-element topic="Intentions.md">
+        <toc-element topic="KotlinApplicableModCommandAction.md"/>
+        <toc-element topic="PsiBasedModCommandAction.md"/>
+        <toc-element topic="SelfTargetingIntention.md"/>
+        <toc-element topic="SelfTargetingRangeIntention.md"/>
+    </toc-element>
+    <toc-element topic="Quick-fixes.md">
+        <toc-element topic="KotlinQuickFixFactory.md">
+            <toc-element topic="ModCommandBased.md"/>
+            <toc-element topic="IntentionBased.md"/>
+        </toc-element>
+        <toc-element topic="Testing.md"/>
+    </toc-element>
+
+</instance-profile>
